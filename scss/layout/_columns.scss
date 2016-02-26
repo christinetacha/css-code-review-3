@@ -1,0 +1,12 @@
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed grey;
+}
+
+.content {
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    height: 150px;
+    width: 150px;
+  }
+
+}

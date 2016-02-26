@@ -1,3 +1,14 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  height: 0;
+  clear: both; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -49,21 +60,69 @@ table {
   box-sizing: border-box;
   border: 1px dashed grey; }
 
-.content .box1, .content .box2, .content .box3, .content .box4, .content .box5, .content .box6, .content .box7, .content .box8 {
-  height: 150px;
-  width: 150px; }
+.content .box1, .content .box3, .content .box6, .content .box7, .content .box9, .content .box11, .content .box2, .content .box4, .content .box5, .content .box8, .content .box10, .content .box12 {
+  height: 400px;
+  width: 25%;
+  float: left; }
+
+.content {
+  overflow: auto; }
 
 .navbar {
   display: inline-block; }
+  .navbar .ul {
+    display: inline; }
   .navbar .menu {
-    float: left; }
+    float: left;
+    display: inline; }
   .navbar .contact {
     float: right; }
 
 .hero-image img {
   width: 100%; }
 
+body {
+  font-family: sans-serif;
+  color: #e1f5c4; }
+
 .box1 {
   background-color: #547a82; }
+
+.box2 {
+  background-color: #a6206a; }
+
+.box3 {
+  background-color: #f16a43; }
+
+.box4 {
+  background-color: #cc527a; }
+
+.box5 {
+  background-color: #a8a7a8; }
+
+.box6 {
+  background-color: #363636; }
+
+.box7 {
+  background-color: #ec1c4b; }
+
+.box8 {
+  background-color: #2f9395; }
+
+.box9 {
+  background-color: #a6206a; }
+
+.box10 {
+  background-color: #f16a43; }
+
+.box11 {
+  background-color: #547a82; }
+
+.box12 {
+  background-color: #2B9EFC; }
+
+.navbar {
+  background-color: #363636;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

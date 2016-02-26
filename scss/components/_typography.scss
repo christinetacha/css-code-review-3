@@ -1,3 +1,57 @@
+body {
+  font-family: sans-serif;
+  color: $off-white;
+}
+
 .box1 {
   background-color: $muted-blue;
+}
+
+.box2 {
+  background-color: $fuschia;
+}
+
+.box3 {
+  background-color: $orange;
+}
+
+.box4 {
+  background-color: $muted-pink;
+}
+
+.box5 {
+  background-color: $light-grey;
+}
+
+.box6 {
+  background-color: $dark-grey;
+}
+
+.box7 {
+  background-color: $pink;
+}
+
+.box8 {
+  background-color: $turquoise;
+}
+
+.box9 {
+  background-color: $fuschia;
+}
+
+.box10 {
+  background-color: $orange;
+}
+
+.box11 {
+  background-color: $muted-blue;
+}
+
+.box12 {
+  background-color: $hero-blue;
+}
+
+.navbar {
+  background-color: $dark-grey;
+  width: 100%;
 }

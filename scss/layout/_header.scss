@@ -1,19 +1,21 @@
 .navbar {
-  .ul {
+  ul li {
     display: inline;
+    padding: 20px;
   }
   .menu {
     float:left;
-    display: inline;
   }
   .contact {
     float: right;
   }
   display: inline-block;
+  @include height(50px);
 }
 
 .hero-image {
   img {
     width: 100%;
+    @include height(500px);
   }
 }
